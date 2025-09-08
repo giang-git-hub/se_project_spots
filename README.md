@@ -1,16 +1,21 @@
-# Triple Peaks Coffee Shop
+# Spots 
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+An image sharing site.
 
-## Project features
+##
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+<!-- Describe the project and its functionality -->
 
-## Plan on improving the project
+## Tech stack
 
-Add your ideas here :)
+- HTML
+- CSS
+- Responsive Design
+- Pictures, GIFs, or screenshots
+
+## Deployment
+
+This webpage is deployed to GitHub Pages
+
+- Deployment link: 
+
