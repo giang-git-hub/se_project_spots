@@ -18,4 +18,3 @@ An image sharing site.
 This webpage is deployed to GitHub Pages
 
 - Deployment link: 
-

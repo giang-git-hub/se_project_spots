@@ -4,12 +4,14 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
 
 .card__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 8px;
 }
 
 .card__like-btn {
@@ -19,6 +21,8 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  padding: 0;
+  cursor: pointer;
 }
 
 .card__title {
@@ -27,11 +31,28 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-family: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
-    width: 288px;
-    height: 318px;
+    height: 288px;
+  }
+  .card__content {
+    padding: 0;
+  }
+  .card__title {
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .card__like-btn {
+    width: 20px;
+    height: 18px;
+    border-radius: 2px;
   }
 }
