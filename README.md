@@ -27,7 +27,7 @@ Spots is a responsive photo gallery website.
 This webpage is deployed to GitHub Pages
 
 - Deployment link: https://giang-git-hub.github.io/se_project_spots/
-- Project Video: 
+- Project Video: https://drive.google.com/file/d/1MhiO1OeQsq_M1vvCMKwAf99immv3rvFJ/view?usp=sharing
 
 ## Plans for Improvement
 
