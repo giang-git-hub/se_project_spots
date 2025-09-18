@@ -47,9 +47,7 @@
   .card__image {
     height: 288px;
   }
-  .card__content {
-    padding: 0;
-  }
+
   .card__title {
     font-size: 16px;
     line-height: 100%;
