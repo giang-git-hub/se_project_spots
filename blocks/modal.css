@@ -1,0 +1,97 @@
+/* Modal font styles */
+.modal {
+  visibility: hidden;
+  background-color: #00000080;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  font-style: medium;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__container {
+  max-width: 730px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  padding: 32px 50px;
+  position: relative;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  /* add close btn icon and make sure it looks right */
+}
+
+.modal__submit-btn {
+  padding: 32px 16px;
+  background-color: #212121;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 156px;
+  height: 52px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 156px;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 32px;
+  line-height: 100%;
+  color: #212121;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  margin: 0 0 32px;
+  font-size: 16px;
+}
+
+.modal__input {
+  display: block;
+  margin: 8px 0 0;
+  padding: 12px 16px;
+  width: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.margin--input::placeholder {
+  color: #2121214d;
+}
+
+@media screen {
+  .modal__submit-btn {
+    max-width: none;
+  }
+}
+
