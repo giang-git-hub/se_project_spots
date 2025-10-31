@@ -42,7 +42,7 @@
   font-size: 16px;
   line-height: 100%;
   font-weight: 500;
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .profile__edit-btn {
@@ -55,11 +55,11 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 100%;
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .profile__edit-btn:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .profile__add-btn {
@@ -82,13 +82,13 @@
 }
 
 .profile__add-btn:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
   .profile {
     flex-direction: column;
-    max-width: 280px;
+    max-width: 288px;
     align-items: center;
     text-align: center;
     padding-top: 20px;
