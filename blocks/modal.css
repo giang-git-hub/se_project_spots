@@ -1,4 +1,5 @@
 .modal {
+  visibility: hidden;
   transition: visibility 0.3s linear 0.3s, opacity 0.3s ease-in;
   background-color: #00000080;
   position: fixed;
