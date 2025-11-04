@@ -152,13 +152,30 @@
   height: 32px;
 }
 
-@media screen {
+@media screen and (max-width: 288px) {
   .modal__submit-btn {
     max-width: none;
   }
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 480px) {
+  .modal__container {
+    padding: 22px 12px 12px;
+  }
+
+  .modal__title {
+    font-size: 20px;
+  }
+
+  .modal__close-btn {
+    top: 22px;
+    right: 12px;
+  }
+
+  .modal__form {
+    margin-top: 34px;
+  }
+
   .modal__close-btn_type_preview {
   color: white;
   top: -40px;
