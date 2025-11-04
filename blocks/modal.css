@@ -1,6 +1,6 @@
 .modal {
   visibility: hidden;
-  transition: visibility 0.3s linear 0.3s, opacity 0.3s ease-in;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
   background-color: #00000080;
   position: fixed;
   top: 0;
@@ -39,6 +39,7 @@
 
 .modal__close-btn {
   background-image: url(../images/close-black.svg);
+  background-repeat: no-repeat;
   position: absolute;
   top: 32px;
   right: 50px;
@@ -133,20 +134,22 @@
 }
 
 .modal__caption {
-  color:white;
-  font-size: 20px;
-  line-height: 120%;
-  font-weight: 500;
-  background-color: #212121;
-  width: 214px;
-  height: 32px;
-  border-radius: 8px;
+  margin: 0;
   padding: 4px 8px;
-  top: 750px;
-  left: 223px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  position: absolute;
+  background-color: #212121;
+  border-radius: 8px;
+  top: calc(100% + 10px);
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 214px;
+  height: 32px;
 }
 
 @media screen {
